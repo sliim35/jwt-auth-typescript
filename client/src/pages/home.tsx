@@ -1,5 +1,5 @@
 import React from 'react';
-import { useUsersQuery } from '../../generated/graphql';
+import { useUsersQuery } from '../generated/graphql';
 
 export const Home: React.FC = (props) => {
   console.log('PROPS', props);
